@@ -1,7 +1,7 @@
 ﻿============================= test session starts =============================
 platform win32 -- Python 3.11.9, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Administrator\.venvs\hf-bgm\Scripts\python.exe
 cachedir: .pytest_cache
-rootdir: E:\AI�ӵ�\Clawhunt\work\1900\clawhunt-1900-docx-parser
+rootdir: E:\AI接单\Clawhunt\work\1900\clawhunt-1900-docx-parser
 configfile: pyproject.toml
 plugins: anyio-4.15.1, hydra-core-1.3.2, typeguard-4.5.2
 collecting ... collected 28 items / 22 deselected / 6 selected
@@ -13,4 +13,4 @@ tests/test_docx_parser.py::test_edge_image_only_document_returns_no_blocks PASSE
 tests/test_docx_parser.py::test_edge_empty_guard_is_what_keeps_blocks_empty PASSED [ 83%]
 tests/test_docx_parser.py::test_edge_positions_are_consecutive PASSED    [100%]
 
-====================== 6 passed, 22 deselected in 0.20s =======================
+====================== 6 passed, 22 deselected in 0.16s =======================

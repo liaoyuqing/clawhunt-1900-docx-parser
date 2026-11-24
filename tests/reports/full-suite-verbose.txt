@@ -1,0 +1,38 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Administrator\.venvs\hf-bgm\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: E:\AI接单\Clawhunt\work\1900\clawhunt-1900-docx-parser
+configfile: pyproject.toml
+plugins: anyio-4.15.1, hydra-core-1.3.2, typeguard-4.5.2
+collecting ... collected 28 items
+
+tests/test_docx_parser.py::test_heading_cn_two_levels PASSED             [  3%]
+tests/test_docx_parser.py::test_heading_cn_text_is_verbatim PASSED       [  7%]
+tests/test_docx_parser.py::test_heading_cn_not_duplicated_as_paragraph PASSED [ 10%]
+tests/test_docx_parser.py::test_heading_cn_matches_english_family PASSED [ 14%]
+tests/test_docx_parser.py::test_heading_cn_sample_snapshot PASSED        [ 17%]
+tests/test_docx_parser.py::test_heading_cn_family_disabled_degrades_to_paragraph PASSED [ 21%]
+tests/test_docx_parser.py::test_heading_level_parser_enumerates_the_whole_family PASSED [ 25%]
+tests/test_docx_parser.py::test_heading_en_sample_snapshot PASSED        [ 28%]
+tests/test_docx_parser.py::test_merged_table_from_sample_is_rectangular PASSED [ 32%]
+tests/test_docx_parser.py::test_merged_table_horizontal_merge_fills_every_cell PASSED [ 35%]
+tests/test_docx_parser.py::test_merged_table_vertical_merge_inherits_value PASSED [ 39%]
+tests/test_docx_parser.py::test_merged_table_meta_shape PASSED           [ 42%]
+tests/test_docx_parser.py::test_merged_table_is_two_dimensional_array PASSED [ 46%]
+tests/test_docx_parser.py::test_merged_table_english_sample_shape PASSED [ 50%]
+tests/test_docx_parser.py::test_merged_table_expansion_disabled_breaks_the_grid PASSED [ 53%]
+tests/test_docx_parser.py::test_edge_empty_document_returns_no_blocks PASSED [ 57%]
+tests/test_docx_parser.py::test_edge_empty_document_does_not_raise PASSED [ 60%]
+tests/test_docx_parser.py::test_edge_header_footer_and_comment_are_ignored PASSED [ 64%]
+tests/test_docx_parser.py::test_edge_image_only_document_returns_no_blocks PASSED [ 67%]
+tests/test_docx_parser.py::test_edge_empty_guard_is_what_keeps_blocks_empty PASSED [ 71%]
+tests/test_docx_parser.py::test_edge_positions_are_consecutive PASSED    [ 75%]
+tests/test_docx_parser.py::test_tracked_changes_use_accepted_text PASSED [ 78%]
+tests/test_docx_parser.py::test_tracked_changes_in_a_generated_document PASSED [ 82%]
+tests/test_docx_parser.py::test_lists_are_split_by_kind PASSED           [ 85%]
+tests/test_docx_parser.py::test_list_kind_from_style_enumerates_styles PASSED [ 89%]
+tests/test_docx_parser.py::test_parser_is_registered_in_the_registry PASSED [ 92%]
+tests/test_docx_parser.py::test_can_parse_accepts_docx_only PASSED       [ 96%]
+tests/test_docx_parser.py::test_blocks_are_json_serialisable PASSED      [100%]
+
+============================= 28 passed in 0.67s ==============================
