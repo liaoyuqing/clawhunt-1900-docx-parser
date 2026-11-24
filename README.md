@@ -31,7 +31,7 @@ Rules that the implementation commits to:
   same family and map to the same `level`. The style UI name, the internal
   `w:name` in `styles.xml` and the style id are all consulted, so a file
   produced by a Chinese Word installation and a file produced by an English
-  one are parsed identically. `app/parsers/docx_parser.py:35` (`heading_level`)
+  one are parsed identically. `app/parsers/docx_parser.py:47` (`heading_level`)
   is the single place that decides this.
 * **Merged cells are expanded.** A horizontal merge (`w:gridSpan`) repeats the
   merged value over every column of the span, so every row has as many columns
