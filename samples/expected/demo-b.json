@@ -1,0 +1,96 @@
+[
+  {
+    "type": "heading",
+    "position": 0,
+    "text": "Member Space Platform Knowledge Base Spec (Fictional Sample)",
+    "level": 1,
+    "meta": {
+      "style": "Heading 1"
+    }
+  },
+  {
+    "type": "heading",
+    "position": 1,
+    "text": "1. Document Ingestion Notes",
+    "level": 2,
+    "meta": {
+      "style": "Heading 2"
+    }
+  },
+  {
+    "type": "paragraph",
+    "position": 2,
+    "text": "This document is a fictional sample used to verify heading detection and block splitting in the DOCX parser. It does not describe any real business material.",
+    "meta": {
+      "style": "Normal"
+    }
+  },
+  {
+    "type": "list",
+    "position": 3,
+    "text": "Body paragraphs are emitted as paragraph blocks.",
+    "ordered": false,
+    "meta": {
+      "style": "List Bullet"
+    }
+  },
+  {
+    "type": "list",
+    "position": 4,
+    "text": "Bullet paragraphs are emitted as list blocks with ordered set to false.",
+    "ordered": false,
+    "meta": {
+      "style": "List Bullet"
+    }
+  },
+  {
+    "type": "list",
+    "position": 5,
+    "text": "Numbered paragraphs are emitted as list blocks with ordered set to true.",
+    "ordered": true,
+    "meta": {
+      "style": "List Number"
+    }
+  },
+  {
+    "type": "table",
+    "position": 6,
+    "text": "Stage\tOwner\tSchedule\tSchedule\tStatus\nIntake\tOperations\t2\tWeek 1\tDone\nDrafting\tContent\t5\tWeek 2\tScheduled\nReview\tOperations\t3\tWeek 3\tScheduled",
+    "rows": 4,
+    "cols": 5,
+    "cells": [
+      [
+        "Stage",
+        "Owner",
+        "Schedule",
+        "Schedule",
+        "Status"
+      ],
+      [
+        "Intake",
+        "Operations",
+        "2",
+        "Week 1",
+        "Done"
+      ],
+      [
+        "Drafting",
+        "Content",
+        "5",
+        "Week 2",
+        "Scheduled"
+      ],
+      [
+        "Review",
+        "Operations",
+        "3",
+        "Week 3",
+        "Scheduled"
+      ]
+    ],
+    "meta": {
+      "rows": 4,
+      "cols": 5
+    }
+  }
+]

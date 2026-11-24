@@ -1,0 +1,96 @@
+[
+  {
+    "type": "heading",
+    "position": 0,
+    "text": "会员空间平台知识库文档规范（虚构样例）",
+    "level": 1,
+    "meta": {
+      "style": "标题 1"
+    }
+  },
+  {
+    "type": "heading",
+    "position": 1,
+    "text": "一、文档入库说明",
+    "level": 2,
+    "meta": {
+      "style": "标题 2"
+    }
+  },
+  {
+    "type": "paragraph",
+    "position": 2,
+    "text": "本文档为虚构样例，仅用于验证 DOCX 解析器的标题识别与分块能力，不代表任何真实企业、真实人员或真实业务资料。",
+    "meta": {
+      "style": "Normal"
+    }
+  },
+  {
+    "type": "list",
+    "position": 3,
+    "text": "正文段落按普通样式输出为 paragraph 块。",
+    "ordered": false,
+    "meta": {
+      "style": "List Bullet"
+    }
+  },
+  {
+    "type": "list",
+    "position": 4,
+    "text": "项目符号段落输出为 list 块，并标记 ordered 为 false。",
+    "ordered": false,
+    "meta": {
+      "style": "List Bullet"
+    }
+  },
+  {
+    "type": "list",
+    "position": 5,
+    "text": "编号段落同样输出为 list 块，并标记 ordered 为 true。",
+    "ordered": true,
+    "meta": {
+      "style": "List Number"
+    }
+  },
+  {
+    "type": "table",
+    "position": 6,
+    "text": "环节\t责任岗位\t周期安排\t周期安排\t状态\n资料收集\t运营专员\t2\t第 1 周\t已完成\n内容整理\t内容专员\t5\t第 2 周\t待排期\n复核发布\t运营专员\t3\t第 3 周\t待排期",
+    "rows": 4,
+    "cols": 5,
+    "cells": [
+      [
+        "环节",
+        "责任岗位",
+        "周期安排",
+        "周期安排",
+        "状态"
+      ],
+      [
+        "资料收集",
+        "运营专员",
+        "2",
+        "第 1 周",
+        "已完成"
+      ],
+      [
+        "内容整理",
+        "内容专员",
+        "5",
+        "第 2 周",
+        "待排期"
+      ],
+      [
+        "复核发布",
+        "运营专员",
+        "3",
+        "第 3 周",
+        "待排期"
+      ]
+    ],
+    "meta": {
+      "rows": 4,
+      "cols": 5
+    }
+  }
+]
